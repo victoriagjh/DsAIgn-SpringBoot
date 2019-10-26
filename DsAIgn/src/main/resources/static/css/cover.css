@@ -1,0 +1,118 @@
+.page-header {
+    background-color: #1B3D6D;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+    width: 100%;
+}
+.page-header h3, .page-header h3 a, .page-header h3 a:visited, .page-header h3 a:active {
+    color: #ffffff;
+    font-size: 25pt;
+    font-weight: 750;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 45pt;
+    font-weight: 750;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.leftcolumn {
+  float: left;
+  width: 13%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+.rightcolumn {
+  float: left;
+  width: 87%;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  align:center;
+}
+.cardGrey {
+  background-color: #D5D5D5;
+  padding: 20px;
+  margin-top: 20px;
+  align:center;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.file-content {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.file-content h5{
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  'line-height:400%'
+}
+
+.tool-explanation table {
+  border: 1px solid black;
+}
+
+.tools{
+    margin-left: 20px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+button{
+  background:#fff;
+  color:#1B3D6D;
+  border:none;
+  position:relative;
+  height:70px;
+  font-size:12pt;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  font-weight: bold;
+}
+button:hover{
+  background:#1B3D6D;
+  color:#fff;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #fff;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
